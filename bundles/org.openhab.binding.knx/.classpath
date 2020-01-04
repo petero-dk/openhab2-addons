@@ -13,9 +13,9 @@
 	</classpathentry>
 	<classpathentry kind="src" output="target/test-classes" path="src/test/java">
 		<attributes>
+			<attribute name="test" value="true"/>
 			<attribute name="optional" value="true"/>
 			<attribute name="maven.pomderived" value="true"/>
-			<attribute name="test" value="true"/>
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8">
@@ -28,5 +28,8 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/peter/openhab-master/git/openhab2-addons/bundles/org.openhab.binding.knx/lib/calimero-core-2.5-SNAPSHOT.jar"/>
+	<classpathentry kind="lib" path="C:/Users/peter/openhab-master/git/openhab2-addons/bundles/org.openhab.binding.knx/lib/calimero-device-2.5-SNAPSHOT.jar"/>
+	<classpathentry kind="lib" path="C:/Users/peter/openhab-master/git/openhab2-addons/bundles/org.openhab.binding.knx/lib/calimero-rxtx-2.5-SNAPSHOT.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
